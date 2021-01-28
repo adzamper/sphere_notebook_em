@@ -487,7 +487,7 @@ def SphereWidget():
 
         txheight=FloatText(min=30.0, max=250.0, step=1, value=120.0, continuous_update=False, description="$tx_z$"),
 
-        dipw=FloatText(min=0.0, max=360.0, step=1, value=90.0, continuous_update=False, description="$dip$"),
+        dipw=FloatText(min=0.0, max=360.0, step=1, value=0.0, continuous_update=False, description="$dip$"),
 
     )
     return i

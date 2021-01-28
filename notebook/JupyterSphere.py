@@ -481,13 +481,13 @@ def SphereWidget():
 
         sigsp=FloatText(min=0.01, max=10.0, step=.01, value=0.5, continuous_update=False, description="$\sigma_{sp}$"),
 
-        thickob=FloatText(min=2.0, max=100.0, step=1, value=2, continuous_update=False, description="$t$"),
+        thickob=FloatText(min=2.0, max=100.0, step=1, value=4, continuous_update=False, description="$t$"),
 
-        depth=FloatText(min=-500.0, max=-10.0, step=1, value=-100.0, continuous_update=False, description="$d$"),
+        depth=FloatText(min=-500.0, max=-10.0, step=1, value=-200.0, continuous_update=False, description="$d$"),
 
         txheight=FloatText(min=30.0, max=250.0, step=1, value=120.0, continuous_update=False, description="$tx_z$"),
 
-        dipw=FloatText(min=0.0, max=360.0, step=1, value=135.0, continuous_update=False, description="$dip$"),
+        dipw=FloatText(min=0.0, max=360.0, step=1, value=90.0, continuous_update=False, description="$dip$"),
 
     )
     return i

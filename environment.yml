@@ -11,6 +11,8 @@ dependencies:
   - ipywidgets>=0.6.0
   - mkl
   - pandas
+  - pygmt
+  - utm
   - pip:
     - pymatsolver
     - discretize

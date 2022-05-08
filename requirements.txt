@@ -8,3 +8,5 @@ discretize
 SimPEG
 pymatsolver
 pandas
+pygmt
+utm

@@ -4,7 +4,6 @@ scipy
 matplotlib
 ipywidgets
 jupyter
-SimPEG
 pymatsolver
 pandas
 pygmt

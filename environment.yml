@@ -15,4 +15,3 @@ dependencies:
   - utm
   - pip:
     - pymatsolver
-    - SimPEG
